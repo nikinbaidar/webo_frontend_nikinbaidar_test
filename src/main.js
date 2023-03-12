@@ -2,82 +2,72 @@ import React from 'react';
 
 
 class Main extends React.Component {
-    displayAlert = () => {
-        alert("You just clicked me.");
+
+    handleClick = (event) => {
+        const element = event.target
+        alert("You just clicked " + element)
     }
 
-    displayShadow= () => {
-        // console.log("This was hovered")
+    displayShadow = (event) => {
+        const element = event.target;
+
+        if (element.classList.contains('options')) {
+            element.style.boxShadow = "-5px 5px var(--foreground)";
+            element.style.transform = "translate(8px, -8px)";
+        }
+        else {
+            element.parentNode.style.boxShadow = "-5px 5px var(--foreground)";
+            element.parentNode.style.transform = "translate(8px, -8px)";
+        }
     }
 
-    removeShadow = () => {
-        this.setState({isShadowOn: false});
+    removeShadow = (event) => {
+        const element = event.target;
+
+        if (element.classList.contains('options')) {
+            element.style.boxShadow =  "None";
+            element.style.transform = "translate(0)";
+        }
+        else {
+            element.parentNode.style.boxShadow = "None";
+            element.parentNode.style.transform = "translate(0)";
+        }
     }
 
     render() {
 
-        const elements = [0, 1, 2];
+        const semesters = ["First", "Second", "Third", "Fourth", "Fifth",
+            "Sixth", "Seventh", "Eighth"];
 
-        const options_top = elements.map((elem) => {
-            return (
-                <div className="options" key={elem.toString()} onClick={this.displayAlert} onMouseMove={this.displayShadow} onMouseOut={this.removeShadow}>
-                <p>{elem}</p>
-                </div>
-            )
+        const subjects = [0, 1, 2, 3, 4, 5];
+
+        const semester_list = semesters.map((elem) => {
+            return <option key={elem} value={elem.toString()}>{elem}</option>;
         })
 
-        function displayShadow() {
-            this.style.boxShadow =  "-5px 5px var(--foreground)";
-        }
+        const sem_options = (
+            <>
+            <p>Semester:</p>
+            <select id="semesters">{semester_list}</select>
+            </>
+        )
 
-        function removeShadow() {
-            this.style.boxShadow =  "None";
-        }
+        const subjects_grid = subjects.map((elem) => {
+            return (
+                <div className="options" key={elem.toString()} 
+                onClick={this.handleClick} 
+                onMouseMove={this.displayShadow} 
+                onMouseOut={this.removeShadow}>
+                    <p>{elem}</p>
+                </div>
+            );
+        })
 
-        function Hello() {
-            let match;
-            let options;
-            options = document.getElementsByClassName('options');
-            for (match of options) {
-                match.onmousemove = displayShadow;
-                match.onmouseout = removeShadow;
-            }
-
-        }
-
-        Hello();
 
         return(
             <div id="main">
-                <div className="dropdown">
-                <p>Semester:</p>
-                <select name="semesters" id="semesters">
-                <option value="1">First</option>
-                <option value="2">Second</option>
-                <option value="3">Third</option>
-                <option value="4">Fourth</option>
-                <option value="5">Fifth</option>
-                <option value="6">Sixth</option>
-                <option value="7">Seventh</option>
-                <option value="8">Eight</option>
-                </select>
-                </div>
-
-                <div id="rowOne" >
-                {options_top}
-                </div>
-                
-            <div id="rowTwo">
-            <div className="options">
-            <p>Four</p>
-            </div>
-            <div className="options">
-            <p>Five</p>
-            </div>
-            <div className="options">
-            <p>Six</p>
-            </div>
-            </div>
+                <div className="dropdown">{sem_options}</div>
+                <div className="grid-container">{subjects_grid}</div>
             </div>
         );
     }
