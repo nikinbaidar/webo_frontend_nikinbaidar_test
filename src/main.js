@@ -3,6 +3,10 @@ import React from 'react';
 
 class Main extends React.Component {
 
+    // const uniquekey = {
+    //     id: crypto.randomUUID(),
+    // }
+
     handleClick = (event) => {
         const element = event.target
         alert("You just clicked " + element)
@@ -41,8 +45,13 @@ class Main extends React.Component {
 
         const subjects = [0, 1, 2, 3, 4, 5];
 
-        const semester_list = semesters.map((elem) => {
-            return <option key={elem} value={elem.toString()}>{elem}</option>;
+        const semester_list = semesters.map((value) => {
+            const elem = {
+                id: crypto.randomUUID(),
+                label: value
+            }
+            return <option key={elem.id}
+                value={elem.label.toString()}>{elem.label}</option>; 
         })
 
         const sem_options = (
@@ -52,13 +61,19 @@ class Main extends React.Component {
             </>
         )
 
-        const subjects_grid = subjects.map((elem) => {
+        const subjects_grid = subjects.map((value) => {
+
+            const props = {
+                id: crypto.randomUUID(),
+                label: value
+            }
+
             return (
-                <div className="options" key={elem.toString()} 
+                <div className="options" key={props.id} 
                 onClick={this.handleClick} 
                 onMouseMove={this.displayShadow} 
                 onMouseOut={this.removeShadow}>
-                    <p>{elem}</p>
+                    <p>{props.label}</p>
                 </div>
             );
         })
