@@ -1,33 +1,34 @@
 import  React from 'react';
 
-import data from './data.json';
+import { loadNavigationBar } from '../dataLoader';
 
 class Navigation extends React.Component {
 
+    handleClick(event) {
+        /* Deactive the current active element */
+        document.getElementsByClassName('active')[0].className = "inactive";
+        /* Active the element which was clicked */
+        event.target.className = "active";
+    }
+
+    navBar = loadNavigationBar().map((item, index) => {
+        const elem = {
+            id: crypto.randomUUID(),
+            label: item.name,
+            class: item.isActive ? 'active' : 'inactive'
+        };
+        return <li className={elem.class} key={elem.id}>{elem.label}</li>;
+    });
 
     render() {
-
-        const websiteLogo = (
-            <img src={require("../logo.png")} alt="site logo"/>
-        );
-
-        const navigationBar = data.navBarItems.map((value) => {
-            const elem = {
-                id: crypto.randomUUID(),
-                label: value
-            };
-            return <li key={elem.id}>{elem.label}</li>;
-
-        });
         return(
             <nav>
-                <ul className="nav_items">
-                {navigationBar}
-                </ul>
-                {websiteLogo}
-                </nav>
+            <ul className="nav_items"
+            onClick={this.handleClick}>{this.navBar}</ul>
+            <img src={require("../logo.png")} alt="site logo"/>
+            </nav>
         );
     }
 }
 
-export default Navigation
+export default Navigation;

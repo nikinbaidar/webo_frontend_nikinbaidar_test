@@ -1,6 +1,9 @@
 import data from './data.json';
 
-export default function loadData() {
-  return data;
+export function loadCurriculum() {
+  return data.curriculum;
 }
 
+export function loadNavigationBar() {
+  return data.navBarItems;
+}

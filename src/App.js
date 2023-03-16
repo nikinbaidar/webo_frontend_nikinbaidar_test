@@ -1,5 +1,5 @@
 import Navigation from './Components/NavigationBar';
-import Main  from './Components/Main';
+import Main from './Components/Main';
 import Advertisements  from './Components/Ads';
 
 import './App.css';
@@ -33,11 +33,11 @@ function Sidebar() {
 
 function App() {
 
-    document.title = "Home - Notesstuidio";
+    console.log("Rendering elements now:");
 
     return (
         <>
-        <Navigation />
+        <Navigation/>
         <section>
             <Sidebar />
             <Main />

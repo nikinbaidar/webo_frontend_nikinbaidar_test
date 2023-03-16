@@ -69,7 +69,7 @@ ul.nav_items li a:visited {
   text-decoration: none;
 }
 
-ul.nav_items li.current {
+ul.nav_items li.active {
   color: var(--current-page);
 }
 
@@ -175,11 +175,11 @@ section {
 
 }
 
-.options p {
+nav > ul.nav_items, .options p {
   cursor: default;
 }
 
-/* Adevertisements */
+/* Advertisements */
 
 #rightsidebar {
   width: 30%;
