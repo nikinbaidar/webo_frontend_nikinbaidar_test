@@ -1,0 +1,144 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/nikin/repos/react_apps/webo_frontend_nikinbaidar_test/src/Components/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	/p5.9.20220828.0/
+0	./data.json	/^            "subjects": [1, 2, 3, 4, 5, 6]$/;"	n	array:allSemesters.0.subjects
+0	./data.json	/^            "subjects": [1, 2, 3, 4, 5, 6]$/;"	n	array:allSemesters.1.subjects
+0	./data.json	/^            "subjects": [1, 2, 3, 4, 5, 6]$/;"	n	array:allSemesters.2.subjects
+0	./data.json	/^            "subjects": [1, 2, 3, 4, 5, 6]$/;"	n	array:allSemesters.3.subjects
+0	./data.json	/^            "subjects": [1, 2, 3, 4, 5, 6]$/;"	n	array:allSemesters.4.subjects
+0	./data.json	/^            "subjects": [1, 2, 3, 4, 5, 6]$/;"	n	array:allSemesters.5.subjects
+0	./data.json	/^            "subjects": [1, 2, 3, 4, 5, 6]$/;"	n	array:allSemesters.6.subjects
+0	./data.json	/^            "subjects": [1, 2, 3, 4, 5, 6]$/;"	n	array:allSemesters.7.subjects
+0	./data.json	/^        "Home",$/;"	s	array:navBarItems
+0	./data.json	/^        {$/;"	o	array:allSemesters
+1	./data.json	/^            "subjects": [1, 2, 3, 4, 5, 6]$/;"	n	array:allSemesters.0.subjects
+1	./data.json	/^            "subjects": [1, 2, 3, 4, 5, 6]$/;"	n	array:allSemesters.1.subjects
+1	./data.json	/^            "subjects": [1, 2, 3, 4, 5, 6]$/;"	n	array:allSemesters.2.subjects
+1	./data.json	/^            "subjects": [1, 2, 3, 4, 5, 6]$/;"	n	array:allSemesters.3.subjects
+1	./data.json	/^            "subjects": [1, 2, 3, 4, 5, 6]$/;"	n	array:allSemesters.4.subjects
+1	./data.json	/^            "subjects": [1, 2, 3, 4, 5, 6]$/;"	n	array:allSemesters.5.subjects
+1	./data.json	/^            "subjects": [1, 2, 3, 4, 5, 6]$/;"	n	array:allSemesters.6.subjects
+1	./data.json	/^            "subjects": [1, 2, 3, 4, 5, 6]$/;"	n	array:allSemesters.7.subjects
+1	./data.json	/^        "Projects",$/;"	s	array:navBarItems
+1	./data.json	/^        {$/;"	o	array:allSemesters
+2	./data.json	/^            "subjects": [1, 2, 3, 4, 5, 6]$/;"	n	array:allSemesters.0.subjects
+2	./data.json	/^            "subjects": [1, 2, 3, 4, 5, 6]$/;"	n	array:allSemesters.1.subjects
+2	./data.json	/^            "subjects": [1, 2, 3, 4, 5, 6]$/;"	n	array:allSemesters.2.subjects
+2	./data.json	/^            "subjects": [1, 2, 3, 4, 5, 6]$/;"	n	array:allSemesters.3.subjects
+2	./data.json	/^            "subjects": [1, 2, 3, 4, 5, 6]$/;"	n	array:allSemesters.4.subjects
+2	./data.json	/^            "subjects": [1, 2, 3, 4, 5, 6]$/;"	n	array:allSemesters.5.subjects
+2	./data.json	/^            "subjects": [1, 2, 3, 4, 5, 6]$/;"	n	array:allSemesters.6.subjects
+2	./data.json	/^            "subjects": [1, 2, 3, 4, 5, 6]$/;"	n	array:allSemesters.7.subjects
+2	./data.json	/^        "Formus",$/;"	s	array:navBarItems
+2	./data.json	/^        {$/;"	o	array:allSemesters
+3	./data.json	/^            "subjects": [1, 2, 3, 4, 5, 6]$/;"	n	array:allSemesters.0.subjects
+3	./data.json	/^            "subjects": [1, 2, 3, 4, 5, 6]$/;"	n	array:allSemesters.1.subjects
+3	./data.json	/^            "subjects": [1, 2, 3, 4, 5, 6]$/;"	n	array:allSemesters.2.subjects
+3	./data.json	/^            "subjects": [1, 2, 3, 4, 5, 6]$/;"	n	array:allSemesters.3.subjects
+3	./data.json	/^            "subjects": [1, 2, 3, 4, 5, 6]$/;"	n	array:allSemesters.4.subjects
+3	./data.json	/^            "subjects": [1, 2, 3, 4, 5, 6]$/;"	n	array:allSemesters.5.subjects
+3	./data.json	/^            "subjects": [1, 2, 3, 4, 5, 6]$/;"	n	array:allSemesters.6.subjects
+3	./data.json	/^            "subjects": [1, 2, 3, 4, 5, 6]$/;"	n	array:allSemesters.7.subjects
+3	./data.json	/^        "Wiki",$/;"	s	array:navBarItems
+3	./data.json	/^        {$/;"	o	array:allSemesters
+4	./data.json	/^            "subjects": [1, 2, 3, 4, 5, 6]$/;"	n	array:allSemesters.0.subjects
+4	./data.json	/^            "subjects": [1, 2, 3, 4, 5, 6]$/;"	n	array:allSemesters.1.subjects
+4	./data.json	/^            "subjects": [1, 2, 3, 4, 5, 6]$/;"	n	array:allSemesters.2.subjects
+4	./data.json	/^            "subjects": [1, 2, 3, 4, 5, 6]$/;"	n	array:allSemesters.3.subjects
+4	./data.json	/^            "subjects": [1, 2, 3, 4, 5, 6]$/;"	n	array:allSemesters.4.subjects
+4	./data.json	/^            "subjects": [1, 2, 3, 4, 5, 6]$/;"	n	array:allSemesters.5.subjects
+4	./data.json	/^            "subjects": [1, 2, 3, 4, 5, 6]$/;"	n	array:allSemesters.6.subjects
+4	./data.json	/^            "subjects": [1, 2, 3, 4, 5, 6]$/;"	n	array:allSemesters.7.subjects
+4	./data.json	/^        "Blog",$/;"	s	array:navBarItems
+4	./data.json	/^        {$/;"	o	array:allSemesters
+5	./data.json	/^            "subjects": [1, 2, 3, 4, 5, 6]$/;"	n	array:allSemesters.0.subjects
+5	./data.json	/^            "subjects": [1, 2, 3, 4, 5, 6]$/;"	n	array:allSemesters.1.subjects
+5	./data.json	/^            "subjects": [1, 2, 3, 4, 5, 6]$/;"	n	array:allSemesters.2.subjects
+5	./data.json	/^            "subjects": [1, 2, 3, 4, 5, 6]$/;"	n	array:allSemesters.3.subjects
+5	./data.json	/^            "subjects": [1, 2, 3, 4, 5, 6]$/;"	n	array:allSemesters.4.subjects
+5	./data.json	/^            "subjects": [1, 2, 3, 4, 5, 6]$/;"	n	array:allSemesters.5.subjects
+5	./data.json	/^            "subjects": [1, 2, 3, 4, 5, 6]$/;"	n	array:allSemesters.6.subjects
+5	./data.json	/^            "subjects": [1, 2, 3, 4, 5, 6]$/;"	n	array:allSemesters.7.subjects
+5	./data.json	/^        "Support",$/;"	s	array:navBarItems
+5	./data.json	/^        {$/;"	o	array:allSemesters
+6	./data.json	/^        "Log In"$/;"	s	array:navBarItems
+6	./data.json	/^        {$/;"	o	array:allSemesters
+7	./data.json	/^        {$/;"	o	array:allSemesters
+Advertisements	./Ads.js	/^export class Advertisements extends React.Component {$/;"	c
+Advertisements	./Main.js	/^export class Advertisements extends React.Component {$/;"	c
+Main	./Ads.js	/^export class Main extends React.Component {$/;"	c
+Main	./Main.js	/^export class Main extends React.Component {$/;"	c
+Nav	./Ads.js	/^export class Nav extends React.Component {$/;"	c
+Nav	./Main.js	/^export class Nav extends React.Component {$/;"	c
+Navigation	./NavigationBar.js	/^class Navigation extends React.Component {$/;"	c
+allSemesters	./data.json	/^    "allSemesters": [$/;"	a
+elem	./Ads.js	/^                <option key={elem.id} value={elem.label.toString()}>$/;"	M
+elem	./Ads.js	/^            const elem = {$/;"	v	method:Main.render
+elem	./Ads.js	/^            const elem = {$/;"	v	method:Nav.render
+elem	./Ads.js	/^            return <li key={elem.id}>{elem.label}<\/li>;$/;"	M
+elem	./Main.js	/^                <option key={elem.id} value={elem.label.toString()}>$/;"	M
+elem	./Main.js	/^            const elem = {$/;"	v	method:Main.render
+elem	./Main.js	/^            const elem = {$/;"	v	method:Nav.render
+elem	./Main.js	/^            return <li key={elem.id}>{elem.label}<\/li>;$/;"	M
+elem	./NavigationBar.js	/^            const elem = {$/;"	v	method:Navigation.render
+elem	./NavigationBar.js	/^            return <li key={elem.id}>{elem.label}<\/li>;$/;"	M
+gridItems	./Ads.js	/^        const gridItems = document.querySelectorAll('.options p'); $/;"	C	class:Main
+gridItems	./Main.js	/^        const gridItems = document.querySelectorAll('.options p'); $/;"	C	class:Main
+handleClick	./Ads.js	/^    handleClick = (event) => {$/;"	M	class:Main
+handleClick	./Main.js	/^    handleClick = (event) => {$/;"	M	class:Main
+handleSelection	./Ads.js	/^    handleSelection = (event) => {$/;"	M	class:Main
+handleSelection	./Main.js	/^    handleSelection = (event) => {$/;"	M	class:Main
+id	./Ads.js	/^                id: crypto.randomUUID(),$/;"	p	variable:Main.render.elem
+id	./Ads.js	/^                id: crypto.randomUUID(),$/;"	p	variable:Main.render.props
+id	./Ads.js	/^                id: crypto.randomUUID(),$/;"	p	variable:Nav.render.elem
+id	./Main.js	/^                id: crypto.randomUUID(),$/;"	p	variable:Main.render.elem
+id	./Main.js	/^                id: crypto.randomUUID(),$/;"	p	variable:Main.render.props
+id	./Main.js	/^                id: crypto.randomUUID(),$/;"	p	variable:Nav.render.elem
+id	./NavigationBar.js	/^                id: crypto.randomUUID(),$/;"	p	variable:Navigation.render.elem
+label	./Ads.js	/^                label: item$/;"	p	variable:Main.render.props
+label	./Ads.js	/^                label: value$/;"	p	variable:Main.render.elem
+label	./Ads.js	/^                label: value$/;"	p	variable:Nav.render.elem
+label	./Main.js	/^                label: item$/;"	p	variable:Main.render.props
+label	./Main.js	/^                label: value$/;"	p	variable:Main.render.elem
+label	./Main.js	/^                label: value$/;"	p	variable:Nav.render.elem
+label	./NavigationBar.js	/^                label: value$/;"	p	variable:Navigation.render.elem
+name	./data.json	/^            "name": "Eighth",$/;"	s	object:allSemesters.7
+name	./data.json	/^            "name": "Fifth",$/;"	s	object:allSemesters.4
+name	./data.json	/^            "name": "First",$/;"	s	object:allSemesters.0
+name	./data.json	/^            "name": "Fourth",$/;"	s	object:allSemesters.3
+name	./data.json	/^            "name": "Second",$/;"	s	object:allSemesters.1
+name	./data.json	/^            "name": "Seventh",$/;"	s	object:allSemesters.6
+name	./data.json	/^            "name": "Sixth",$/;"	s	object:allSemesters.5
+name	./data.json	/^            "name": "Third",$/;"	s	object:allSemesters.2
+navBarItems	./data.json	/^    "navBarItems": [$/;"	a
+props	./Ads.js	/^            const props = {$/;"	v	method:Main.render
+props	./Main.js	/^            const props = {$/;"	v	method:Main.render
+render	./Ads.js	/^    render() {$/;"	m	class:Advertisements
+render	./Ads.js	/^    render() {$/;"	m	class:Main
+render	./Ads.js	/^    render() {$/;"	m	class:Nav
+render	./Main.js	/^    render() {$/;"	m	class:Advertisements
+render	./Main.js	/^    render() {$/;"	m	class:Main
+render	./Main.js	/^    render() {$/;"	m	class:Nav
+render	./NavigationBar.js	/^    render() {$/;"	m	class:Navigation
+semesterNames	./Ads.js	/^    semesterNames = data.allSemesters.map(item => item.name);$/;"	M	class:Main
+semesterNames	./Main.js	/^    semesterNames = data.allSemesters.map(item => item.name);$/;"	M	class:Main
+semesterWiseSubjects	./Ads.js	/^        const semesterWiseSubjects = subjectMap.get(event.target.value)[0];$/;"	C	class:Main
+semesterWiseSubjects	./Main.js	/^        const semesterWiseSubjects = subjectMap.get(event.target.value)[0];$/;"	C	class:Main
+subjectNames	./Ads.js	/^    subjectNames = data.allSemesters.map(item => item.subjects);$/;"	M	class:Main
+subjectNames	./Main.js	/^    subjectNames = data.allSemesters.map(item => item.subjects);$/;"	M	class:Main
+subjects	./data.json	/^            "subjects": [1, 2, 3, 4, 5, 6]$/;"	a	object:allSemesters.0
+subjects	./data.json	/^            "subjects": [1, 2, 3, 4, 5, 6]$/;"	a	object:allSemesters.1
+subjects	./data.json	/^            "subjects": [1, 2, 3, 4, 5, 6]$/;"	a	object:allSemesters.2
+subjects	./data.json	/^            "subjects": [1, 2, 3, 4, 5, 6]$/;"	a	object:allSemesters.3
+subjects	./data.json	/^            "subjects": [1, 2, 3, 4, 5, 6]$/;"	a	object:allSemesters.4
+subjects	./data.json	/^            "subjects": [1, 2, 3, 4, 5, 6]$/;"	a	object:allSemesters.5
+subjects	./data.json	/^            "subjects": [1, 2, 3, 4, 5, 6]$/;"	a	object:allSemesters.6
+subjects	./data.json	/^            "subjects": [1, 2, 3, 4, 5, 6]$/;"	a	object:allSemesters.7

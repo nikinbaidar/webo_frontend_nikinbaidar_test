@@ -1,8 +1,8 @@
-import Navbar from './navbar.js';
-import Ads    from './advertisements.js';
-import Main from './main.js';
+import Navigation from './Components/NavigationBar';
+import Main  from './Components/Main';
+import Advertisements  from './Components/Ads';
 
-import './testing.css';
+import './App.css';
 
 
 function Sidebar() {
@@ -10,7 +10,7 @@ function Sidebar() {
         <>
         <div id="leftsidebar">
         <ul className="headings">
-        <li>Item number one</li>
+        <li>Item number two</li>
         <ul className="subtopics">
         <li>Sub Item 1</li>
         <li>Sub Item 2</li>
@@ -37,11 +37,11 @@ function App() {
 
     return (
         <>
-        <Navbar />
+        <Navigation />
         <section>
-            <Sidebar/>
-            <Main/>
-            <Ads/>
+            <Sidebar />
+            <Main />
+            <Advertisements />
         </section>
         </>
     );
