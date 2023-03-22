@@ -2,6 +2,7 @@ import  React from 'react';
 
 import { loadNavigationBar } from '../dataLoader';
 
+
 class Navigation extends React.Component {
 
     handleClick(event) {
@@ -30,5 +31,6 @@ class Navigation extends React.Component {
         );
     }
 }
+
 
 export default Navigation;

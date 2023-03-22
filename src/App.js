@@ -1,48 +1,25 @@
 import Navigation from './Components/NavigationBar';
+import Sidebar from './Components/Sidebar';
 import Main from './Components/Main';
 import Advertisements  from './Components/Ads';
+import Copyright from './Components/Copyright.js';
+
 
 import './App.css';
+import './Queries.css';
 
-
-function Sidebar() {
-    return(
-        <>
-        <div id="leftsidebar">
-        <ul className="headings">
-        <li>Item number two</li>
-        <ul className="subtopics">
-        <li>Sub Item 1</li>
-        <li>Sub Item 2</li>
-        </ul>
-        <li>How To</li>
-        <ul className="subtopics">
-        <li>Arduino</li>
-        <li>ESP32</li>
-        <li>Raspberry Pi</li>
-        </ul>
-        <li>Nerding Out</li>
-        <ul className="subtopics">
-        <li>Beizer Curves</li>
-        </ul>
-        </ul>
-        </div>
-        </>
-    );
-}
 
 function App() {
-
-    console.log("Rendering elements now:");
 
     return (
         <>
         <Navigation/>
         <section>
-            <Sidebar />
-            <Main />
-            <Advertisements />
+            <Sidebar/>
+            <Main/>
+            <Advertisements/>
         </section>
+        <Copyright/>
         </>
     );
 }
