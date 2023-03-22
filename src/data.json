@@ -36,7 +36,6 @@
             "isActive": false
         }
     ],
-
     "curriculum": [
         {
             "semester": "First",
@@ -270,5 +269,48 @@
                 } 
             ]
         }
+    ],
+    "sideBarItems": [
+        {
+            "chapter": "Item number one",
+            "lessons" : [
+                {
+                    "title": "Sub Item 1",
+                    "link": "link"
+                },
+                { 
+                    "title": "Sub Item 2",
+                    "link": "link"
+                }
+            ]
+        },
+        {
+            "chapter": "How To",
+            "lessons" : [
+                {
+                    "title": "Arduino",
+                    "link": "ESP32"
+                },
+                {
+                    "title": "ESP32",
+                    "link": "ESP32"
+                },
+                { 
+                    "title": "Rasperry Pi",
+                    "link": "link"
+                }
+            ]
+        },
+        {
+            "chapter": "Neding Out",
+            "lessons" : [
+                {
+                    "title": "Beizer Curves",
+                    "link": "ESP32"
+                }
+            ]
+
+        }
     ]
+
 }
